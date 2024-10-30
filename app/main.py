@@ -1,7 +1,7 @@
 # main.py
 
 from fastapi import FastAPI
-from app.config import settings
+from app.settings.config import settings
 from app.routes import user
 
 app = FastAPI(
